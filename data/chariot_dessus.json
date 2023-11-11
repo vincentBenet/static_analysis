@@ -1,0 +1,23 @@
+{
+	"liaisons" : {
+		"L1": [0, 0, true, true, false],
+		"L2": [0, 4, true, true, false],
+		"L3": [-1, 1, true, true, false],
+		"L5": [-3, 6, true, true, false],
+		"L6": [-3, 5, true, false, false],
+		"L7": [3, 5, true, false, false],
+		"L8": [1, 1, true, true, false]
+	},
+	"parts" : {
+		"GND": ["L1", "L3", "L8"],
+		"P1": ["L1", "L2"],
+		"P3": ["L6", "L2", "L7","L5"],
+		"P4": ["L5", "L3", "L6"],
+		"P5": ["L8", "L7"]
+	},
+	"forces" : {
+		"P4" : [
+			[-3, 10, 0, 200, 0]
+		]
+	}
+}
